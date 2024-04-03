@@ -1,0 +1,116 @@
+########################################
+# Program: matcher
+# Rundate: Mon  1 Apr 2024 09:29:16
+# Commandline: matcher
+#    -auto
+#    -stdout
+#    -asequence emboss_matcher-I20240401-092659-0093-62663844-p1m.asequence
+#    -bsequence emboss_matcher-I20240401-092659-0093-62663844-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 16
+#    -gapextend 4
+#    -alternatives 1
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: human
+# 2: chiken
+# Matrix: EDNAFULL
+# Gap_penalty: 16
+# Extend_penalty: 4
+#
+# Length: 936
+# Identity:     643/936 (68.7%)
+# Similarity:   643/936 (68.7%)
+# Gaps:          17/936 ( 1.8%)
+# Score: 1947
+# 
+#
+#=======================================
+
+human          15604 TCTTTTTTGTTTATTTCAAAGAATTCAGTAATTGGATCATAACGAGACTT  15653
+                     |.|||.||.||..|..|..||||||.|||||||||||||||||.||||||
+chiken          3433 TGTTTCTTTTTCTTGCCCTAGAATTTAGTAATTGGATCATAACAAGACTT   3482
+
+human          15654 CTGCGGATTGCAGCAACTCCCTCCTGTCATTTGTTACACAAGAAAATCTG  15703
+                     ||.||.|||||.||||||||...||||......||.||||||||.||||.
+chiken          3483 CTCCGAATTGCTGCAACTCCAAGCTGTATCACATTGCACAAGAACATCTC   3532
+
+human          15704 TGAAGTCATCTGTTCATTATTATTTCTTTTTAAAAGCAAGAGTCCTGCTA  15753
+                     |||.|||||.||.||.|||.|.||.||.|||||||..||.|||....|.|
+chiken          3533 TGATGTCATTTGCTCTTTACTTTTCCTGTTTAAAATGAAAAGTTGCTCCA   3582
+
+human          15754 TTTTTGGGGTACTCACAAAAGAATTATTACAACTTTTTGAAGACTTGGTT  15803
+                     |.||||.....||.||||.|||.||..||||.|||||..||||.||..|.
+chiken          3583 TCTTTGAAACGCTAACAAGAGACTTGCTACAGCTTTTCCAAGATTTAATC   3632
+
+human          15804 TACCTCCAT-----AGA---AGAAATG----TGATGGGTCATGCTGTGGA  15841
+                     |.|||.|||     |||   |.|||.|    |...|||..|||...|||.
+chiken          3633 TTCCTGCATGAACGAGACACACAAAAGCAGCTCTGGGGAGATGTGCTGGT   3682
+
+human          15842 ATGGCCAGTGGTCATGAGCCGATTTTTAAGTCAATTAGATGAACACATGG  15891
+                     ||||||||||....|||...||||||.||||.|...|..|||..|..|||
+chiken          3683 ATGGCCAGTGACAGTGAAGAGATTTTCAAGTAATGCAAGTGACAATGTGG   3732
+
+human          15892 GATATTTACAATCAGCTCCTTTGCAGTTGATGAGTATGCAAAATTTAGAA  15941
+                     .|||||||..||.|||.||.|||||..|||||.||||||..|||.|||||
+chiken          3733 CATATTTAAGATTAGCACCATTGCACCTGATGGGTATGCCCAATGTAGAA   3782
+
+human          15942 TTTATTGAAGTCACTTTATTAATGGTTCTTACTCGTATTATTGCAATTGT  15991
+                     |.|.|.|||||.|..||.||.....|.||.|....||||..||||..|||
+chiken          3783 TGTCTGGAAGTTATATTGTTGTCTATCCTGATGGATATTGCTGCAGATGT   3832
+
+human          15992 GTTTTTTAGAAGGCAAGA-ACTCTTACTTTGGCAGATAGGTTGTGTTCTG  16040
+                     .||||||..|||.||.|| |||.|| ||.|||...|||||.||....|||
+chiken          3833 ATTTTTTGTAAGACAGGATACTGTT-CTCTGGGGAATAGGATGCTCCCTG   3881
+
+human          16041 CTAGAGTATGGTAGTCCAAAAATTAAATCCCTAGCAATTAGCTTTTTAAC  16090
+                     .|.|||||||||.|||||||..|||||.|..|||||||.|.||||||||.
+chiken          3882 TTGGAGTATGGTTGTCCAAAGGTTAAAGCTTTAGCAATGAACTTTTTAAT   3931
+
+human          16091 AGAACTTTTTCAGCTTGGAGGACTACCAGCACAACCAGCTAGCACTTTTT  16140
+                     |.||.|..||||..|.|||||||..||.|.|||.|..||.||...|||.|
+chiken          3932 AAAATTAATTCATTTGGGAGGACCTCCGGAACAGCTGGCCAGTGTTTTCT   3981
+
+human          16141 TCAGC-TCATTTTTGGAATTATTAAAACACCTTGTAGAAATGGATACTGA  16189
+                     |||.. ||.||||.||||||.|..|..||.|...| ||||||||||||||
+chiken          3982 TCACAGTCTTTTTCGGAATTCTACATTCAGCACTT-GAAATGGATACTGA   4030
+
+human          16190 CCAATTGAAACTCTATGAAGAGCCATTATCAAAGCTGATAAAGACACTAT  16239
+                     ..||.||.||||||..|.|||.||.||.|.|.|..||.|.|..|||.||.
+chiken          4031 AGAACTGGAACTCTGCGGAGAACCGTTCTTACAATTGGTGAGAACATTAA   4080
+
+human          16240 TTCCCTTTGAAGCAGAAGCTTATAGAAATATTGAACCTGTCTATTTAAAT  16289
+                     |.||.|||||||||||..||||.|.|||.|||||||||||||||||.|||
+chiken          4081 TGCCTTTTGAAGCAGACTCTTACAAAAACATTGAACCTGTCTATTTGAAT   4130
+
+human          16290 ATGCTGCTGGAAAAACTCTGTGTCATGTTTGAAGACGGTGTGCTCATGCG  16339
+                     |||||.|||||.||.||.||||...|||||||||..|.|.||.|.||||.
+chiken          4131 ATGCTACTGGAGAAGCTTTGTGCACTGTTTGAAGGAGATATGTTTATGCA   4180
+
+human          16340 GCTTAAGTCTGATTTGCTAAAAGCAGCTTTGTGCCATTTACTGCAGTATT  16389
+                     .|||...||.||...|||.|||||.|||||.||||||.|||||||.||||
+chiken          4181 TCTTCGTTCCGAAAAGCTGAAAGCTGCTTTTTGCCATATACTGCAATATT   4230
+
+human          16390 TCCTTAAATTTGTGCCAGCTGGGTATGAATCTGCTTTACAAGTCAGGAAG  16439
+                     |.||..|.||.||.||..||||.|||||||||||.||||||||.||.||.
+chiken          4231 TTCTGGAGTTGGTTCCGCCTGGCTATGAATCTGCCTTACAAGTAAGAAAA   4280
+
+human          16440 GTCTATGTGAGAAATATTTGTAAAGCTCTTTTGGATGTGCTTGGAATTGA  16489
+                     |||.||||.|..|..||.||.||||.|.||.||...||||||||||.|.|
+chiken          4281 GTCCATGTCAATACCATATGCAAAGTTTTTGTGAGCGTGCTTGGAACTCA   4330
+
+human          16490 GGTAGATGCAGAGGTAAGT-AATTTTTCAGGTTACT  16524
+                     ||.|||...|||||||.|| |||||||.|..|||.|
+chiken          4331 GGAAGAACAAGAGGTAGGTTAATTTTTAAAATTATT   4366
+
+
+#---------------------------------------
+#---------------------------------------

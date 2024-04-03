@@ -1,0 +1,136 @@
+########################################
+# Program: matcher
+# Rundate: Wed  3 Apr 2024 14:00:27
+# Commandline: matcher
+#    -auto
+#    -stdout
+#    -asequence emboss_matcher-I20240403-135821-0417-66453779-p1m.asequence
+#    -bsequence emboss_matcher-I20240403-135821-0417-66453779-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 16
+#    -gapextend 4
+#    -alternatives 1
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: human
+# 2: chicken
+# Matrix: EDNAFULL
+# Gap_penalty: 16
+# Extend_penalty: 4
+#
+# Length: 1167
+# Identity:     683/1167 (58.5%)
+# Similarity:   683/1167 (58.5%)
+# Gaps:          80/1167 ( 6.9%)
+# Score: 1179
+# 
+#
+#=======================================
+
+human          78583 AAAGAATTGTTATCACTCTTTATTTAGATTTTCAGATTCTACTTCAAAGA  78632
+                     ||.||.||..|.||.|.||.||||.||..||||||.|.|..||..|||.|
+chicken        25012 AATGATTTAATCTCTCACTGTATTCAGTCTTTCAGGTCCATCTCAAAACA  25061
+
+human          78633 CTCCTCCTCAAGAAGAATTACCTACTCGAGTGTCATCTCCTGTATTTGGA  78682
+                     ||||.||.|..|..||.|....|.|||..||....||||||||.||.|||
+chicken        25062 CTCCACCACGTGTTGACTGGGATTCTCAGGTAGTTTCTCCTGTTTTCGGA  25111
+
+human          78683 GCTACCTCTAGTATCAAAAGTGGTTTAGATTTGAATACAAGTTTGTCCCC  78732
+                     |||   |||||.|  |.|.|.||...| |.|..|.|||||||....|.||
+chicken        25112 GCT---TCTAGCA--ATACGCGGAACA-ACTCAAGTACAAGTCATGCACC  25155
+
+human          78733 TTCTCTTTTACAGCCTGGGAAAAAAAAACATCTGAAAACACTCCCTTTTA  78782
+                     ||.|.|||||.|..||.....|||.....||.|.|||.....||..||.|
+chicken        25156 TTGTATTTTAGATTCTAATTCAAAGCCTAATGTCAAAGTCAACCTCTTCA  25205
+
+human          78783 GCAACACTTGTATATCTAGATTAGAAAAAACTAGATCAAAATCTGAAGAT  78832
+                     .|||..|||..|..||.||||...|.||||.|||.|||||||||||||||
+chicken        25206 ACAATCCTTCCAGTTCCAGATCTCATAAAAATAGGTCAAAATCTGAAGAT  25255
+
+human          78833 AGTGCCCTTTTCACACATCACAGTCTTGGGTCTGAAGTGAACAAGATCAT  78882
+                     ..|||..||.||.|||..|..|.||||||..|.|||.|.||.....|.||
+chicken        25256 GTTGCTTTTGTCGCACCACTGAATCTTGGAACCGAAATCAATTCAGTTAT  25305
+
+human          78883 TATCCAGTCATCTAATAAACAG----ATACTTATAAATAAAAATATAAGT  78928
+                     .|.||||...|||| |.|||||    ||..|..|.||.||.||||..|.|
+chicken        25306 CAGCCAGGTCTCTA-TCAACAGGCAAATGGTCGTGAAAAAGAATAGCAAT  25354
+
+human          78929 GAATCCCTA------GGTGAACAGAATAGGACTGAGTACGGTAAAGATTC  78972
+                     ||.....||      |.||.|.|.|.|.|..|.|...|...|.|.|....
+chicken        25355 GAGGTTGTAACTTCTGTTGGAAACACTTGTGCAGCTAAAAATGAGGTGAT  25404
+
+human          78973 TAACACTGATAAACATTTGGAGCCCCTGAAATCATTGGGAGGCCGAACAT  79022
+                     .||.|.||||...|.|||....|.||.|||. ||....||||  |||..|
+chicken        25405 CAAGAGTGATTTCCTTTTCATACACCAGAAG-CAGCCAGAGG--GAAGGT  25451
+
+human          79023 ---CCAAAAGGAAGAAAACTGAGGAAGAAAGTGAACATGAAGTAAGCTGC  79069
+                        ||||.||.||||||.||||.||      |||.||||.|.|.|||||.
+chicken        25452 GTGCCAAGAGAAAGAAAGCTGAAGA------TGAGCATGCAATTAGCTGT  25495
+
+human          79070 CCCCAAGCTTCTTTTGATAAAGAAAATGCTTTCCCTTTTCCAATGGATAA  79119
+                     ....|.||.|||||..|.|||||.||..||.|.||.||||.|...||||.
+chicken        25496 GAAAATGCATCTTTCAACAAAGAGAACTCTGTACCCTTTCGATCAGATAT  25545
+
+human          79120 TCAGTTTTCCATGAATGGAGACTGTGTGATGGATAAACCTCTGGATCTGT  79169
+                     ||||..   |||||||||.||..........|||||.||..|||||||||
+chicken        25546 TCAGCA---CATGAATGGGGAACACACAGGTGATAAGCCCTTGGATCTGT  25592
+
+human          79170 CTGATCGATTTTCAGCTATTCAGCGTCAAGAGAAAAGCCAAGGAAGTGAG  79219
+                     |||||||.||.|..|...|||...||||||||||||..||||||||||||
+chicken        25593 CTGATCGCTTCTGCGGAGTTCGTTGTCAAGAGAAAAAACAAGGAAGTGAG  25642
+
+human          79220 ---ACTTCTAAAAACAAATTTAGGCAAGTGACTCTTTATGAGGCTTT---  79263
+                        ||.|.||||||.|||.|.|.|||.||||||||.|||||.|.|||   
+chicken        25643 GAGACCTGTAAAAATAAACTGAAGCAGGTGACTCTGTATGATGTTTTTTT  25692
+
+human          79264 ---------GAAGACCATTCCAAAGGGCTTTTCCTCAAGCCGTAAGGCCT  79304
+                              ||||.||||||...||||.|..||.|||...|..||.|||.
+chicken        25693 GCAGCTAGGGAAGCCCATTCATGAGGGTTCATCGTCAGTTCAGAATGCCA  25742
+
+human          79305 CAGATGGCAACTGCACGTTGCCCAAAGATTCCCCAGGGGAGCCCTGTTCA  79354
+                     ....||..|...||..|||...||.||||...|.||.|||.||||.|..|
+chicken        25743 ACAGTGAGAGGAGCTTGTTTGGCAGAGATATGCAAGAGGAACCCTATGTA  25792
+
+human          79355 CAGGAATGCATCATCCTTCAGCCCTTGAATAAATGCTCTCCAGA--CAAT  79402
+                     ||.||..           |||...|.|.|.|||.. |.|.||||  |||.
+chicken        25793 CAAGAGG-----------CAGTGGTGGCAAAAACA-TTTGCAGATACAAA  25830
+
+human          79403 AAACCATCATTACAAATAAAAGAAGAAAATGCTGTCTTTAAAATTCCTCT  79452
+                     |||.||..  |.|||||.|||||||||....||..|||.||||||.|.|.
+chicken        25831 AAAGCAGG--TCCAAATGAAAGAAGAAGTCCCTCCCTTAAAAATTACACC  25878
+
+human          79453 ACGTCCACGTGAAAGTTTGGAGACTGAGAATGTTTTAGATGACATAAAGG  79502
+                     |...|||.||   |.|.|.||.||.||..|..||||..||||.||.||||
+chicken        25879 ATTGCCAAGT---ACTGTAGACACAGAACAACTTTTTAATGATATGAAGG  25925
+
+human          79503 TTTGTGTTAAATGTTCAAGGATTTTGATTAAAATGATTGCTTGTGATTTC  79552
+                     |.|||.||   |.|||...|.||||..|.......|.|||..  .||||.
+chicken        25926 TATGTTTT---TTTTCTCAGTTTTTCTTCTCTTGAAATGCCA--AATTTA  25970
+
+human          79553 ATTTAGAGCTAACAATTA--TTTC----TGTT-TTAGAGTGCTGGTTCTC  79595
+                     |.|....|..||||||.|  ||.|    |||| ||||..|||..||...|
+chicken        25971 AGTCTTGGGAAACAATAAAATTGCAATATGTTGTTAGGTTGCCAGTGACC  26020
+
+human          79596 ATGAGCCAATAAAAATACAAACCAGGTCAGACCATGGAGGATGTGAACTT  79645
+                     |||..||||..|.||...||||.|||.|||..|||||||..|.|||.|..
+chicken        26021 ATGTACCAAACAGAAAGAAAACAAGGACAGGGCATGGAGAGTCTGAGCCA  26070
+
+human          79646 GCATCAGTTCTTCAGTTAAATCCATGTAGAAC-TGGTAAAATAAAGTCTC  79694
+                     |||||.||.|||||...|||.||.||||||.. |...||||||||||. |
+chicken        26071 GCATCTGTACTTCAACCAAACCCTTGTAGACTATCAAAAAATAAAGTA-C  26119
+
+human          79695 TACAAAACAACCAAGGT  79711
+                     ..|..||..|.||||||
+chicken        26120 AGCCGAATGAGCAAGGT  26136
+
+
+#---------------------------------------
+#---------------------------------------
