@@ -1,3 +1,4 @@
+! Изображения с результатами лежат в папке results<br />
 ПО: protein imager https://3dproteinimaging.com/protein-imager/<br />
 Белок: https://www.rcsb.org/structure/4CC8<br />
 Инструкция по применению:<br />
