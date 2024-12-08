@@ -17,12 +17,15 @@ https://colab.research.google.com/drive/1UOrEC8vT1CMhItDgEWAemj8ccZ8YHsFE?usp=sh
 5-6) Визуализировал полученные последовательности (файл сессии - mol-star_state_2024-12-8-16-8-31.molx):
 
 Сравнение исходных структур:
+
 ![alt text](./SELECTED_PREDICTION.PDB-PTM0.595_R3_DEFAULT.PDB.png)
 
 Выравнивание:
+
 ![alt text](./OUTPUT.PDB.png)
 
 Всё вместе:
+
 ![alt text](./SELECTED_PREDICTION.PDB-PTM0.595_R3_DEFAULT.PDB-OUTPUT.PDB.png)
 
 7) Предсказания имеют частично схожую структуру (например большая спираль, расположенная на скриншотах справа).
