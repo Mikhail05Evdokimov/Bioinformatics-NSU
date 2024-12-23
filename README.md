@@ -11,13 +11,17 @@
 Изображения:
 
 3D структура таргета 
+
 ![alt text](./images/3D%20protein%20structure.jpg)
 
 3D структура исходного лиганда
+
 ![alt text](./images/3D%20ligand.jpg)
 
 Полученный бокс
+
 ![alt text](./images/Grid%20box.jpg)
 
 Результат докинга
+
 ![alt text](./images/3D%20docking%20pose.jpg)
